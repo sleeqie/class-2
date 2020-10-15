@@ -139,6 +139,43 @@ barplot(cylinders)
 plot(cylinders)
 
 
+#What's a matrix?In R, a matrix is a collection of elements of the same 
+#data type (numeric, character, or logical) arranged into a fixed number of rows and columns. 
+S#ince you are only working with rows and columns, a matrix is called two-dimensiona
+
+#You can construct a matrix in R with the matrix() function. Consider the following example:
+  #matrix(1:9, byrow = TRUE, nrow = 3)
+matrix(1:9, byrow=TRUE, nrow=3)
+
+#Construct a matrix with 5 rows containing the numbers 1 up to 20, filled
+
+matrix(1:20, byrow = TRUE, nrow = 5)
+matrix(1:100, byrow = TRUE, nrow = 10)
+
+#Solution to classwork
+
+new_hope <- c(250, 300, 130)
+empire_strikes <- c(150, 670, 340)
+return_jedi <- c(110, 560, 630)
+
+box_ofice <- c(new_hope, empire_strikes, return_jedi);
+#box_ofice
+
+star_war_matrix <- matrix(box_ofice, byrow=TRUE, nrow=3)
+star_war_matrix
+
+#We want to name the columns with region
+region <- c("US", "NON-US", "Africa")
+title <- c("new_hope", "empire_strikes", "return_jedi")
+
+colnames(star_war_matrix) <- region
+#Name of rows with titles
+rownames(star_war_matrix) <- title
+star_war_matrix
+
+#assignment 3 on notes, also label the data.
+
+
 
 
 
