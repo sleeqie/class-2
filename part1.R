@@ -81,6 +81,62 @@ poker_winning_days
 #roulette to the variable roulette_winning_days.
 #This vector thus contains the positive winnings of roulette_vector
 
+  
+?iris
+plot(iris$Species)
+plot (iris$Sepal.Length)
+
+
+#Assignment 2
+#Find out all the various graphs plots and present them in power point. types of graphs and their usage.
+#col,pch,main,xlab,ylab are all properties of the plots. Also LIST various graph plots in R. Also find out about the different statistical distributions and their usage.
+plot(iris$Species, iris$Petal.Width)
+plot(iris$Petal.Length, iris$Petal.Width, 
+    col="#cc00cc",
+    pch=19,
+    main="Iris: Petal Lenght vs. Petal Width",
+    xlab="Petal Length",
+    ylab="Petal Width"
+     )
+
+plot(cos, 1, 4*pi)
+plot(exp, 1,5) #Exponential  distribution
+
+plot(dnorm, -3, +3,
+     col= "#33cc33" ) 
+##density of a normal distribution from -3 - +3
+
+
+#Classwork
+#Using  formular, plot an exponential distribution  from -5, +5
+plot(exp, -5, 5)
+plot(dnorm, -5, 5)
+
+#Formula plot options with graphical parameter
+plot (dnorm, -3, +3, #density of a normal distribution from -3 - +3
+      col = "#cc0000",
+      lwd = 5, #Line width
+      main = "Density Normal Distribution",
+      xlab = "scores", #label on x-axis 
+      ylab = "Density"  #label on y-axis
+
+#classwork 2
+plot(dnorm, -5, 5,
+     col = "#804d00",
+     lwd = 10,
+     main = "Density normal Distribution",
+     xlab = "scores",
+     ylab = "Density")
+
+
+?mtcars
+
+plot(mtcars)
+
+barplot(mtcars$cyl)
+cylinders <- table(mtcars$cyl)
+barplot(cylinders)
+plot(cylinders)
 
 
 
