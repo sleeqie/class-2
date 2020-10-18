@@ -72,7 +72,6 @@ poker_winning_days <- poker_vector [selection_vector]
 poker_winning_days
 
 
-
 #Assignment 1
 #Create the variable selection_vector, this time to see if you made profit with 
 #roulette for different days.
@@ -81,6 +80,8 @@ poker_winning_days
 #roulette to the variable roulette_winning_days.
 #This vector thus contains the positive winnings of roulette_vector
 
+
+  
   
 ?iris
 plot(iris$Species)
