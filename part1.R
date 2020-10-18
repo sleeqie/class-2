@@ -174,8 +174,6 @@ colnames(star_war_matrix) <- region
 rownames(star_war_matrix) <- title
 star_war_matrix
 
-#assignment 3 on notes, also label the data.
-
 
 
 
