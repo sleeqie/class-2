@@ -24,3 +24,5 @@ total_poker > total_roulette
 selection_roulette_r <- roulette_vector [1:5] > 0
 roulette_winning_days <- roulette_vector [selection_roulette_r]
 roulette_winning_days
+
+#good job. Do ensure you give a description of your work
