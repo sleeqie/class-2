@@ -15,3 +15,14 @@ boxplot(trees, col = c("pink", "red", "cyan"), main = "Boxplot for trees dataset
 
 #I observe the histogram is not displaying. Kindly check your plot again.
 #This is a great work you have done.
+
+
+
+
+
+
+
+
+
+
+
